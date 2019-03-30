@@ -5,7 +5,7 @@ Page({
         entities: null
     },
     play(event){
-      const currentVideo = wx.createVideoContext(`${event.target.dataset.vid}`)
+      const currentVideo = wx.createVideoContext(`${ event.target.dataset.vid }`)
       currentVideo.play()
     },
     onLoad: function(options) {
